@@ -40,6 +40,14 @@
 
 This template ships with OpenAI `gpt-4o` as the default. However, with the [AI SDK](https://sdk.vercel.ai/docs), you can switch LLM providers to [OpenAI](https://openai.com), [Anthropic](https://anthropic.com), [Cohere](https://cohere.com/), and [many more](https://sdk.vercel.ai/providers/ai-sdk-providers) with just a few lines of code.
 
+<div id="getting-started">
+  
+# Getting Started
+
+> Watch the [Onboarding Video](https://youtu.be/YMEyNXP59Ss) to spin up quickly
+
+</div>
+
 ## Running locally
 
 You will need to use the environment variables [defined in `.env.example`](.env.example) to run Next.js AI Chatbot. It's recommended you use [Vercel Environment Variables](https://vercel.com/docs/projects/environment-variables) for this, but a `.env` file is all that is necessary.
@@ -199,17 +207,12 @@ For more help, check our [Troubleshooting Guide](docs/troubleshooting.md) or ope
 3. **Set Environment Variables**
    In your Vercel project settings, add the following environment variables:
 
-   ```bash
-   # Required
-   NEXT_PUBLIC_SUPABASE_URL=           # From Supabase project settings
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=      # From Supabase project settings
-   OPENAI_API_KEY=                     # Your OpenAI API key
-   AUTH_SECRET=                        # Run: openssl rand -base64 32
-
-   # Optional
-   NEXT_PUBLIC_APP_URL=                # Your deployed app URL
-   SUPABASE_SERVICE_ROLE_KEY=          # From Supabase project settings
-   ```
+```bash
+# Required
+NEXT_PUBLIC_SUPABASE_URL=           # From Supabase project settings
+NEXT_PUBLIC_SUPABASE_ANON_KEY=      # From Supabase project settings
+OPENAI_API_KEY=                     # Your OpenAI API key
+```
 
 4. **Configure Build Settings**
    In your Vercel project settings:
