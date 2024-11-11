@@ -56,7 +56,7 @@ This template ships with OpenAI `gpt-4o` as the default. However, with the [AI S
     <li>Review the admin panel (Paid)</li>
   </ul>
   <a href="https://youtu.be/YMEyNXP59Ss">
-    <img src="https://github.com/Jordan-Gilliam/readme-assets/blob/master/cult-dir-youtube-preview.png" width="85%" alt="YouTube Onboarding Video" />
+    <img src="./opengraph-image.png" width="85%" alt="YouTube Onboarding Video" />
   </a>
 </div>
 
