@@ -44,19 +44,15 @@ This template ships with OpenAI `gpt-4o` as the default. However, with the [AI S
 
 <div align="left">
   <h2>YouTube Onboarding Video</h2>
-   <h4>This video walks you through how to set up the directory app from scratch. We will:</h4>
+   <h4>This video walks you through how to set up the ai chatbot with supabase from scratch. We will:</h4>
   <ul style="text-align: left; display: inline-block;">
     <li>Setup a new Supabase project using the CLI</li>
     <li>Link it to our app</li>
     <li>Setup environment variables</li>
     <li>Run the DB migrations to configure the schema</li>
-    <li>Configure authentication</li>
-    <li>Register an admin user (Paid)</li>
-    <li>Run a 3-stage AI enrichment script to populate our directory (Paid)</li>
-    <li>Review the admin panel (Paid)</li>
   </ul>
   <a href="https://youtu.be/YMEyNXP59Ss">
-    <img src="./opengraph-image.png" width="85%" alt="YouTube Onboarding Video" />
+    <img src="https://github.com/nolly-studio/ai-chatbot-supabase/blob/main/readme-video-thumbnail.png" width="85%" alt="YouTube Onboarding Video" />
   </a>
 </div>
 
