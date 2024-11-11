@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import { Toaster } from 'sonner';
 
-// import { AuthProvider } from '@/components/auth/AuthProvider';
 import { ThemeProvider } from '@/components/custom/theme-provider';
 
 import './globals.css';
