@@ -1,6 +1,6 @@
 <a href="https://chat.vercel.ai/">
   <img alt="Next.js 14 and App Router-ready AI chatbot." src="app/(chat)/opengraph-image.png">
-  <h1 align="center">Next.js AI Chatbot</h1>
+  <h1 align="center">Next.js AI Chatbot x Supabase</h1>
 </a>
 
 <p align="center">
@@ -40,11 +40,25 @@
 
 This template ships with OpenAI `gpt-4o` as the default. However, with the [AI SDK](https://sdk.vercel.ai/docs), you can switch LLM providers to [OpenAI](https://openai.com), [Anthropic](https://anthropic.com), [Cohere](https://cohere.com/), and [many more](https://sdk.vercel.ai/providers/ai-sdk-providers) with just a few lines of code.
 
-<div id="getting-started">
-  
-# Getting Started
+<div id="youtube-onboarding-video">
 
-> Watch the [Onboarding Video](https://youtu.be/YMEyNXP59Ss) to spin up quickly
+<div align="left">
+  <h2>YouTube Onboarding Video</h2>
+   <h4>This video walks you through how to set up the directory app from scratch. We will:</h4>
+  <ul style="text-align: left; display: inline-block;">
+    <li>Setup a new Supabase project using the CLI</li>
+    <li>Link it to our app</li>
+    <li>Setup environment variables</li>
+    <li>Run the DB migrations to configure the schema</li>
+    <li>Configure authentication</li>
+    <li>Register an admin user (Paid)</li>
+    <li>Run a 3-stage AI enrichment script to populate our directory (Paid)</li>
+    <li>Review the admin panel (Paid)</li>
+  </ul>
+  <a href="https://youtu.be/YMEyNXP59Ss">
+    <img src="https://github.com/Jordan-Gilliam/readme-assets/blob/master/cult-dir-youtube-preview.png" width="85%" alt="YouTube Onboarding Video" />
+  </a>
+</div>
 
 </div>
 
