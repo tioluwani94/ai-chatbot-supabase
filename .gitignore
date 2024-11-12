@@ -36,3 +36,9 @@ yarn-error.log*
 .vercel
 .vscode
 .env*.local
+
+#vscode
+.vscode
+
+#supabase
+supabase
